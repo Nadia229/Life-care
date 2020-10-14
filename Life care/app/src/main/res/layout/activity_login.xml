@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+
+
+
+
+
+
+                <EditText
+                    android:paddingLeft="10dp"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:background="@drawable/shape"
+                    android:layout_weight="1"
+                    android:inputType="text"
+                    android:id="@+id/numberLogin"
+
+                    android:layout_gravity="start"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:hint="Mobile Number"
+                    android:textColor="#ffffff"
+                    android:textAlignment="viewStart"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginLeft="40dp"
+                    android:textColorHint="#939696" />
+
+
+                <EditText
+
+                    android:paddingLeft="10dp"
+                    android:imeOptions="actionNext"
+                    android:drawablePadding="10dp"
+                    android:layout_weight="1"
+                    android:inputType="textPassword"
+                    android:id="@+id/passwordLogin"
+                    android:layout_gravity="start"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:hint="Password"
+                    android:background="@drawable/shape"
+                    android:textColor="#ffffff"
+                    android:textAlignment="viewStart"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="350dp"
+                    android:textColorHint="#939696" />
+                <TextView
+                    android:layout_marginLeft="45dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="390dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Forget password?"
+                    android:id="@+id/tx1"
+                    android:textColor="#fff"
+                    android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="500dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape"
+        android:text="Login"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sign_up1"
+                    android:layout_weight="1"
+                    android:layout_marginTop="630dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No account yet? Create one"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="25dp"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="90dp"
+                    android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:textColor="#61cfd0"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginEnd="30dp"
+        android:text="  Life Care" />
+
+
+</RelativeLayout>
